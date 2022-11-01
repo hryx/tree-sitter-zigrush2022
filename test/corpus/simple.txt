@@ -1,0 +1,19 @@
+======
+Simple
+======
+
+one "two" 666 four
+ok -12.6 "then" 0.8 ""
+
+---
+
+(source_file
+  (word)
+  (string)
+  (number)
+  (word)
+  (word)
+  (number)
+  (string)
+  (number)
+  (string))

@@ -1,0 +1,25 @@
+{
+  "name": "tree-sitter-zigrush2022",
+  "version": "0.1.0",
+  "description": "Example Tree-sitter parser with a Zig-based scanner",
+  "main": "bindings/node",
+  "scripts": {
+    "build": "tree-sitter generate",
+    "test": "tree-sitter test"
+  },
+  "repository": "https://github.com/hryx/tree-sitter-zigrush2022",
+  "author": "Stevie Hryciw",
+  "license": "MIT",
+  "dependencies": {
+    "nan": "^2.17.0"
+  },
+  "devDependencies": {
+    "tree-sitter-cli": "^0.20.7"
+  },
+  "tree-sitter": [
+    {
+      "scope": "source.zigrush2022",
+      "file-types": ["zr2"]
+    }
+  ]
+}
